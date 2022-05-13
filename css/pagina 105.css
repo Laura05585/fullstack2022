@@ -1,0 +1,26 @@
+*{box-sizing: border-box;
+}
+bodys{
+    margin: 0;
+}
+.main-header{
+    background-color:#2ddf5c;
+    padding:8px 16px;
+    width:100%
+}
+li.main-nav {
+    /* * solo se recibe en el elemnto li*/ 
+  display:inline-block;
+}
+ul.main-nav {
+/* /.solo recibe el elemento ul/ */
+ background-color: aquamarine;
+}
+nav.main-header{
+    /*  */
+    background-color: blanchedalmond;
+}
+.main-nav_items{
+    text-align: right;
+    width: 100%;
+}
