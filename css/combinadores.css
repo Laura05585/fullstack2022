@@ -1,14 +1,15 @@
 h2 + p {
-    color: 
-    red; 
-
+    color: red;
 }
 h2 ~ p {
-    color: 
-orange;
+  color:orange;
 }
-div> p¨{
-    color: green;
-
+div > p {
+  color:green;
 }
-p{}
+p {
+  color:blue !important;
+}
+div p {
+    color:rgb(244, 27, 168);
+}
