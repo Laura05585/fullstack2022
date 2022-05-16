@@ -31,6 +31,9 @@ p.thick{
 p.thicker{
     /*Elmáximovalores900*/ font-weight:900;
 }
+middle>*{
+    vertical-align:middle;
+}
 .top>*{
     vertical-align:top;
 }
