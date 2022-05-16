@@ -1,0 +1,49 @@
+h1{
+    word-spacing:10px;
+    text-shadow: 3px; :2px: red;
+    font-size:40px;
+}
+h2{
+    word-spacing:-5px;
+    font-size:30px;
+}
+p.serif{
+    font-family:"TimesNewRoman",Times,serif;
+}
+p.sansserif{
+    font-family:Arial,Helvetica, sans-serif;
+}
+p.normal{
+    font-style:normal;
+}
+p.italic{
+    font-style:italic;
+}
+p.oblique{
+    font-style:oblique;
+}
+p.light{
+    font-weight:lighter;
+}
+p.thick{
+    font-weight:bold;
+}
+p.thicker{
+    /*Elmáximovalores900*/ font-weight:900;
+}
+.top>*{
+    vertical-align:top;
+}
+.bottom>*{
+    vertical-align:bottom;
+}
+h2{
+    display:inline-block; 
+    margin:0;width: 150px; 
+    text-align:right;
+    font:bold20pxSans-Serif;
+}
+div{
+    margin:0030px0;
+     padding:10px;
+    }
