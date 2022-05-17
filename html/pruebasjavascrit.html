@@ -17,6 +17,7 @@
     <p id="texto">Texto incial</p>
     <button type="submit" onclick="cambia()">CAMBIA</button>
     <button type="submit" onclick="incial()">INICIAL</button>
+    <button type="submit" onclick="incial()">SALUDAR</button>
     <br>    
     <script>
         function cambia() {
@@ -60,10 +61,57 @@
         /*Esto esun
          comentario  multilínea*/
         //correcto
-        constnombre="Alejandro"; 
+        const nombre="Alejandro"; 
         functionsaludar(){document.write(nombre);
         }
         </script>
+        <script>const nombre=prompt("Escribasunombre","Escribaaquí");
+        console.log(nombre);
+        </script>
+        <script>
+        constconf=confirm("Sí ono");
+        // true o false
+         console.log(conf);
+         </script>
+         <script>
+         //1000000000000000000
+         console.log(9999999999999999999);
+         // 0.6 
+         console.log(0.5+0.1);
+         //0.30000000000000004
+         console.log(0.1+0.2);
+         // 0.3 
+         console.log(Math.round((0.1+0.2)*100)/100); 
+         console.log(parseFloat((0.1+0.2).toFixed(1)));
+         // -Infinity
+          console.log(Math.max());
+          // Infinity 
+          console.log(Math.min());
+          // "" 
+          console.log([]+[]);
+          </script>
+          <script>
+          // "aa"
+           console.log(["a"]+["a"]);
+           // "[object Object]"
+            console.log([]+{});
+            // 0 
+            console.log({}+[]);
+            // true
+             console.log(true+true+true===3);
+            // true 
+            console.log(true==1);
+            // false
+             console.log(true===1);
+             // 9 
+             console.log((!+[]+[]+![]).length);
+             // "91" 
+             console.log(9+"1");
+             //90
+             console.log(91-"1");
+             //true
+             console.log([]==0);
+             </script>
 
     <noscript>
         Lo siento, tu navegador no acepta JavaScript!
