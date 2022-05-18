@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pruebas de java escrit html</title>
+    <script src="../javascrit.js/primerjavascrit.js"></script>
+</head>
+<body>
+    <script>
+        alert("Ventana de alerta"); 
+    </script>
+</head>
+<body>
+    <h1>Pruebas JAVASCRIPT (frontend)</h1>
+    <p id="texto">Texto incial</p>
+    <button type="submit" onclick="cambia()">CAMBIA</button>
+    <button type="submit" onclick="incial()">INICIAL</button>
+    <button type="submit" onclick="incial()">SALUDAR</button>
+    <br>    
+    <script>
+        function cambia() {
+            document.getElementById("texto").innerHTML = "Párrafo cambiado";
+        }
+        function incial() {
+            document.getElementById("texto").innerHTML = "Texto incial";
+        }
+    </script>
+    <script>
+        // VENTANA DE ALERTA EN EL NAVEGADOR
+        // alert("Ventana de alerta"); 
+        // ESCRIBE EN EL PROPIO DOCUMENTO HTML
+        // document.write("Hello world! Texto en el documento");
+        // PODEMOS REVISAR ESTE TEXTO EN F12 LA CONSOLA 
+        // console.log("Hello world! Texto en la consola"); 
+    </script>
+    <script>
+        document.write("Hello world! Texto en el documento");
+    </script>
+    <script>
+    $(document).ready(function(){ 
+        console.log('LibreríajQuerycargada');
+        });
+        </script>
+       <script>
+       // hola
+        console.log('hola');
+        //enunlugardelamancha
+        console.log('en','un','lugar','de','la','Mancha');
+         console.info('Info');
+         console.warn('Warning'); 
+          console.error('Error');
+          document.write("Texto2");
+          alert("Hello world!");
+        </script>
+        <pid="demo"> </p>
+        <script>
+        document.getElementById("demo").innerHTML="hola";
+        //Estoesuncomentariodeunaúnicalínea
+        /*Esto esun
+         comentario  multilínea*/
+        //correcto
+        const nombre="Alejandro"; 
+        functionsaludar(){document.write(nombre);
+        }
+        </script>
+        <script>const nombre=prompt("Escribasunombre","Escribaaquí");
+        console.log(nombre);
+        </script>
+        <script>
+        constconf=confirm("Sí ono");
+        // true o false
+         console.log(conf);
+         </script>
+         <script>
+         //1000000000000000000
+         console.log(9999999999999999999);
+         // 0.6 
+         console.log(0.5+0.1);
+         //0.30000000000000004
+         console.log(0.1+0.2);
+         // 0.3 
+         console.log(Math.round((0.1+0.2)*100)/100); 
+         console.log(parseFloat((0.1+0.2).toFixed(1)));
+         // -Infinity
+          console.log(Math.max());
+          // Infinity 
+          console.log(Math.min());
+          // "" 
+          console.log([]+[]);
+          </script>
+          <script>
+          // "aa"
+           console.log(["a"]+["a"]);
+           // "[object Object]"
+            console.log([]+{});
+            // 0 
+            console.log({}+[]);
+            // true
+             console.log(true+true+true===3);
+            // true 
+            console.log(true==1);
+            // false
+             console.log(true===1);
+             // 9 
+             console.log((!+[]+[]+![]).length);
+             // "91" 
+             console.log(9+"1");
+             //90
+             console.log(91-"1");
+             //true
+             console.log([]==0);
+             </script>
+
+    <noscript>
+        Lo siento, tu navegador no acepta JavaScript!
+    </noscript>
+    
+</body>
+</html>
