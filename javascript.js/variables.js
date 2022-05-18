@@ -69,3 +69,5 @@ const str4 = "''";
 const string1 = 'hola';
 // 4
 console.log(string1.length);
+const semana=["lunes","martes","miercoles","jueves","viernes","sabado","domingo",];
+console.log(semana[2]);
