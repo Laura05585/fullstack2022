@@ -13,3 +13,4 @@ if (a > b) {
     console.log(`ELSE a (${a}) es igual en valor que b (${b})`);
     document.write("ELSE a=b solo en valor");
 }
+© 2022 GitHub, Inc.

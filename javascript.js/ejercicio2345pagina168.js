@@ -8,6 +8,3 @@ if (suma1 > suma2) {
 } else {
     document.write("La suma de a + b es igual que la suma de c + d");
 }
-© 2022 GitHub, Inc.
-Terms
-Priva

@@ -1,4 +1,3 @@
-
 let angulo1=40, angulo2=70, angulo3=70;
 let triangulo = angulo1 + angulo2 + angulo3;
 if (triangulo == 180) {
