@@ -29,8 +29,8 @@ for (let element1 of elementos1) {
     }
     
 }
-console.log('el numero de repeticiones es ${contador}');
-console.log("hay" + contador +"elementos iguales entre los dos array. estos son: " + repetidores );
+console.log ('el numero de repeticiones es ${contador}');
+console.log ("hay" + contador +"elementos iguales entre los dos array. estos son: " + repetidores );
 
 //Ejercicio5:escribe unprogramaqueextraigaunaporcióndel arraya partirde una posicióninferior yuna superior ylo almacene enotro array.
 let tierra = ["mar", "rio", "sol", "oceano", "nuves"];
